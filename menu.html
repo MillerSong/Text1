@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Digital | Sukara Restaurante - Luanda, Angola</title>
+    <meta name="description" content="Menu digital do Sukara Restaurante. Pizzas artesanais, hambúrgueres, frango Chikenista, pastelaria e muito mais. Faça seu pedido online.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/jpeg" href="assets/images/logo.jpg">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.jpg" alt="Sukara Logo">
+                <div class="logo-text">
+                    <span>SUKARA</span>
+                    <span>Restaurante & Pastelaria Gourmet</span>
+                </div>
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="gallery.html">Galeria</a></li>
+                <li><a href="reservas.html">Reservas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <button class="mobile-menu-close">
+            <i class="fas fa-times"></i>
+        </button>
+        <ul class="mobile-menu-links">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="gallery.html">Galeria</a></li>
+            <li><a href="reservas.html">Reservas</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </div>
+    <div class="mobile-overlay"></div>
+    
+    <!-- Menu Header -->
+    <section class="section" style="padding-top: 150px; background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('assets/images/menu-pizzas.jpg'); background-size: cover; background-position: center;">
+        <div class="container">
+            <div class="section-header" style="margin-bottom: 0;">
+                <span class="section-subtitle" style="color: var(--gold-primary);">Menu Digital</span>
+                <h2 class="section-title" style="color: white;">Nosso Cardápio</h2>
+                <p style="color: var(--white-muted); margin-top: 20px;">Escolha seus pratos favoritos e faça seu pedido diretamente pelo WhatsApp</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Menu Section -->
+    <section class="section" style="background: var(--black-light);">
+        <div class="container">
+            <!-- Category Filters -->
+            <div class="menu-categories fade-in">
+                <button class="category-btn active" data-category="all">Todos</button>
+                <button class="category-btn" data-category="pizzas">Pizzas</button>
+                <button class="category-btn" data-category="hamburgers">Hambúrgueres</button>
+                <button class="category-btn" data-category="chickenista">Chikenista</button>
+                <button class="category-btn" data-category="beirut">Sabor do Líbano</button>
+                <button class="category-btn" data-category="manakish">Manakish</button>
+                <button class="category-btn" data-category="salads">Saladas</button>
+                <button class="category-btn" data-category="tostas">Tostas</button>
+                <button class="category-btn" data-category="omeletes">Omeletes</button>
+                <button class="category-btn" data-category="miniaturas">Miniaturas</button>
+                <button class="category-btn" data-category="pratos">Pratos</button>
+                <button class="category-btn" data-category="bebidas">Bebidas</button>
+                <button class="category-btn" data-category="refrigerantes">Refrigerantes</button>
+                <button class="category-btn" data-category="sumos">Sumos</button>
+            </div>
+            
+            <!-- Menu Grid -->
+            <div class="menu-grid">
+                <!-- Items will be rendered by JavaScript -->
+            </div>
+        </div>
+    </section>
+    
+    <!-- QR Code Section -->
+    <section class="qr-section">
+        <div class="container">
+            <div class="qr-container"></div>
+            <div class="qr-text">
+                <h3>Menu Digital QR Code</h3>
+                <p>Escaneie para aceder ao menu digital diretamente no seu telemóvel</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="assets/images/logo.jpg" alt="Sukara Logo">
+                    <h3>SUKARA</h3>
+                    <p>Taste the Difference<br>Restaurante e Pastelaria Gourmet</p>
+                    <div class="footer-social">
+                        <a href="https://instagram.com/sukara" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://facebook.com/sukara" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="gallery.html">Galeria</a></li>
+                        <li><a href="reservas.html">Reservas</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="menu.html">Pizzas</a></li>
+                        <li><a href="menu.html">Hambúrgueres</a></li>
+                        <li><a href="menu.html">Chikenista</a></li>
+                        <li><a href="menu.html">Pastelaria</a></li>
+                        <li><a href="menu.html">Bebidas</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contacto</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Avenida 21 de Janeiro, nº 31, Morro Bento, Luanda</p>
+                    <p><i class="fas fa-phone"></i> +244 948 909 000 | +244 947 717 172</p>
+                    <p><i class="fas fa-clock"></i> Todos os dias: 07:30 - 22:00</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sukara Restaurante. Todos os direitos reservados.</p>
+                <p>Website criado por <a href="tel:+244939409104">MillerSites</a> | +244 939 409 104</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Cart Toggle Button -->
+    <div class="cart-toggle">
+        <i class="fas fa-shopping-basket"></i>
+        <span class="cart-count">0</span>
+    </div>
+    
+    <!-- Cart Sidebar -->
+    <div class="cart-overlay"></div>
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h3><i class="fas fa-shopping-basket"></i> Seu Pedido</h3>
+            <button class="cart-close"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-items">
+            <div class="cart-empty">
+                <i class="fas fa-shopping-basket" style="font-size: 4rem; margin-bottom: 20px; color: var(--gold-primary); opacity: 0.5;"></i>
+                <p>O seu carrinho está vazio</p>
+            </div>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span class="cart-total-amount">0 Kz</span>
+            </div>
+            <button class="btn-whatsapp">
+                <i class="fab fa-whatsapp"></i> Enviar Pedido pelo WhatsApp
+            </button>
+        </div>
+    </div>
+    
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/244948909000" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp" style="font-size: 30px; color: white;"></i>
+    </a>
+    
+    <!-- QRCode.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    
+    <!-- Main Script -->
+    <script src="js/script.js"></script>
+</body>
+</html>
